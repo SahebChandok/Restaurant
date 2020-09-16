@@ -1,1 +1,314 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 100vh;
+}
+.logo h2 a{
+  text-decoration: none;
+}
+#bar{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.3)),url("bar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 85vh;
+  width: 100%;
+  padding-top: 15vh;
+
+}
+.nav{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  background-color: rgba(0,0,0,0.6);
+  position: fixed;
+
+
+}
+.logo{
+  width: 50%;
+  height: 15vh;
+  padding-left: 25px;
+  padding-top: 5vh;
+}
+.menu ul{
+  display: flex;
+  align-self: center;
+  margin-top: 6vh;
+
+}
+.menu ul li{
+  list-style: none;
+  text-decoration: none;
+  padding-left: 60px;
+  margin-right: 10px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menu ul li a:hover{
+  color:#ffd11a;
+}
+#first{
+  margin-top: 8%;
+  padding-left:27%;
+  text-transform: uppercase;
+  font-size: 37px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 18px;
+}
+#second{
+  text-transform: uppercase;
+  padding-left: 33%;
+  font-size: 37px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 18px;
+}
+#bar h1{
+  margin-top: 20px;
+  font-size: 50px;
+  padding-left: 18%;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+#para{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 33%;
+  margin-top: 10px;
+}
+.button{
+  margin-left: 43%;
+  margin-top: 20px;
+  color:black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+.button:hover{
+  background-color: #ffd11a;
+}
+span:after{
+   content:"" ;
+   animation: animate infinite 10s;
+   color: #ffd11a;
+   padding-left: 10px;
+}
+
+@keyframes animate {
+    0%{content: 'Indian';}
+    25% {content: 'Italian';}
+    45%{ content: 'Chinese';}
+    55%{ content: 'Thai';}
+    75%{content: 'Korean';}
+    100%{content: 'Mexican';}
+
+}
+#one{
+  width: 100%;
+  height: 100vh;
+}
+#about{
+height: 100vh;
+}
+#contact{
+  height: 100vh;
+}
+
+.part1{
+  padding-top: 18vh;
+  padding-left:  34%;
+ font-weight: bold;
+ font-size: 40px;
+}
+.image{
+  margin-left: 30%;
+}
+.img tr td{
+  padding-top: 50%;
+}
+.pic2{
+  padding-right: 120px;
+  padding-left: 120px;
+}
+.con h4{
+  color: black;
+}
+.con p{
+  color: black;
+}
+
+.contact-form label{
+  color: black;
+}
+.contact-form h1{
+  color: black;
+}
+.btn{
+  color: black;
+  text-decoration: none;
+}
+#contact{
+  background-image: url("tree.jpg");
+  background-repeat: repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contact-form{
+  width: 95%;
+  max-width: 600px;
+  background: #f1f1f1;
+  position: absolute;
+  margin-top: 54vh;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: content-box;
+  border-radius: 10px;
+ text-align: center;
+ box-shadow: 0 0 20px #000000b3;
+ font-family: "Montserrat",sans-serif;
+}
+.contact-form h1{
+  margin-top: 0;
+  font-weight: 200;
+
+}
+.txtb{
+  border: 1px solid gray;
+  margin-left: 8px 2px;;
+  padding:12px 18px;
+  border-radius: 10px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input,.txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  color: black;
+}
+.btn{
+  display: inline-block;
+  background: #9b59b6;
+  margin-top: 10px;
+  padding: 8px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+}
+.col-lg-6 a,.col-lg-6 p{
+  color: black;
+
+}
+.menu-ingredients{
+  color: black;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+}
+.col-lg-6{
+  display: flex;
+}
+.photo img{
+  border-radius: 100%;
+  padding-top: 20px;
+ border:5px solid gray;
+}
+.menu-content a{
+  text-decoration: none;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.menu-ingredients{
+  font-family: "Poppins", sans-serif;
+}
+.row{
+  padding-top: 13vh;
+}
+.options{
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.menu-content{
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.menu-ingredients{
+  font-style: italic;
+  color: gray;
+  text-transform: capitalize;
+}
+#one{
+  background: #1a1814;
+}
+.us{
+  display: flex;
+}
+.photo{
+  width: 50%;
+}
+#about{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url("about-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.about{
+  display: flex;
+}
+.introduction{
+  width: 50%;
+  text-align: center;
+  padding-top: 25vh;
+  padding-left: 5%;
+
+}
+.introduction h1{
+  font-weight: bolder;
+}
+.introduction h3{
+  padding-top: 20px;
+  font-style: italic;
+}
+.photograph{
+  width: 50%;
+  padding-left: 20%;
+  padding-top: 30vh;
+
+
+}
+.photograph img{
+  border: 3px solid gray;
+
+}
 
